@@ -146,6 +146,8 @@ curl http://127.0.0.1:8000/v1/chat/completions \
   }'
 ```
 
+![nostream](docs/chat_without_stream.gif)
+
 ### Streaming (SSE)
 
 ```bash
@@ -159,6 +161,8 @@ curl -N http://127.0.0.1:8000/v1/chat/completions \
     ]
   }'
 ```
+
+![stream](docs/chat_with_stream.gif)
 
 # Notes and Limitations
 
